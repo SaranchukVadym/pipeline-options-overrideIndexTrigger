@@ -3,13 +3,13 @@ pipeline {
 
     options {
         timestamps()
-        overrideIndexTrigger(false)
+        overrideIndexTriggers(false)
     }
 
     stages {
         stage('Build') {
             steps {
-                echo 'Hello, World 2'
+                echo 'Hello, World 1'
             }
         }
     }
